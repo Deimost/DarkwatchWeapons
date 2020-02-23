@@ -1,0 +1,9 @@
+{
+ "type": "resource",
+ "name": "Патроны",
+ "description": "Патроны для пулемёта",
+ "color": "000000",
+ "tier": 2,
+ "explosiveness": 3,
+ "flammability": 1
+}

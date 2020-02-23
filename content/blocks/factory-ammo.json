@@ -1,0 +1,31 @@
+{
+"type": "GenericCrafter",
+"name": "Завод патронов",
+"description": "Производит патроны",
+"outputItem": {"item": "ammo", "amount": 1},
+"craftItem": 1,
+"size": 2,
+"hasItem": true,
+"craftTime": 30,
+"health": 240,
+"craftEffect": "pulverizeMedium",
+"consumes": {
+ "power": 4.0,
+ "items": {
+  "items": [
+   {"item": "lead", "amount": 4 },
+   {"item": "copper", "amount": 4 },
+   {"item": "coal", "amount": 4 }
+  ]
+ }
+},
+"requirements": [
+ { "item": "lead", "amount": 45 },
+ {"item": "copper", "amount": 40},
+ {"item": "titanium", "amount": 75}
+],
+"category": "crafting",
+"research": "factory-ammo",
+"idleSound": "respawning",
+"idleSoundVolume": 0.5
+}

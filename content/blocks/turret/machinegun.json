@@ -1,0 +1,36 @@
+{
+    "type": "doubleTurret",
+    "name": "Турель",
+    "description": "Стреляет специальными патронами.",
+    "health": 425,
+    "size": 2,
+    "reload": 5,
+    "range": 200,
+    "ammoUseEffect": "shellEjectSmall",
+    "inaccuracy": 2,
+    "rotatespeed": 10,
+    "shootSound": "machineshoot",
+    "ammo": {
+        "ammo": {
+            "speed": 10,
+            "damage": 65,
+            "reloadMultiplier": 1.0,
+            "bulletWidth": 2,
+            "bulletHeight": 8,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke",
+            "type": "BasicBulletType",
+            
+            "ammoMultiplier": 2,
+            "backColor": "8f6661",
+            "frontColor": "c9a597"
+        }
+    }
+    "requirements": [
+       {"item": "copper", "amount": 130},
+       {"item": "titanium", "amount": 270},
+       {"item": "lead", "amount": 160}
+    ],
+    "category": "turret",
+    "research": "duo"
+}
